@@ -10,7 +10,7 @@ try:
   from LEGENDX22 import ID
 except:
    os.system("pip install LEGENDX22")
-   from LEGENDX22 import ID
+   from LEGEND import ID
 StartTime = time.time()
 # enable logging
 logging.basicConfig(
